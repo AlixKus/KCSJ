@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>  
+<html xmlns:th="http://www.thymeleaf.org">  
+<head>  
+    <title>Getting Started: Spring MVC</title>  
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />  
+</head>  
+<body>  
+  <form action="#" th:action="@{/message}" th:object="${helloMessage}" method="post">
+  	<label>NAME</label><input type="text" th:field="*{name}" />
+  	<input type="submit" value="Submit" />
+  </form>
+</body>  
+</html> 
