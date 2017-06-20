@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: kcsj
+Implementation-Version: 0.1.0
+Built-By: ￥ﾈﾘ￥ﾝﾤ
+Implementation-Vendor-Id: com.lk
+Build-Jdk: 1.8.0_74
+Implementation-URL: http://projects.spring.io/spring-boot/kcsj/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+Main-Class: com.lk.Application
+
