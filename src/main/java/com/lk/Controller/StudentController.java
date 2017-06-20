@@ -15,7 +15,7 @@ public class StudentController {
 	
 	@RequestMapping("/student")
 	public String index(Model model) {
-		model.addAttribute(students, )
+		model.addAttribute("students", studentService.getList());
 		return "student/student";
 	}
 }

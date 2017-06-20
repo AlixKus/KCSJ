@@ -7,20 +7,18 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class TestController {
-	
+
+
 	@RequestMapping("/")
 	public String index() {
-		return "index";
+		return "redirect:/ index.html";
 	}
-	
+
 	@RequestMapping("/hello")
 	public String greeting(@RequestParam(value = "name", required = false, defaultValue = "World") String name,
 			Model model) {
 		model.addAttribute("name", name);
 		return "gg";
 	}
-	
-
-
 
 }
